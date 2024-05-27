@@ -204,7 +204,8 @@ class CryptoProAPI {
         oSignedData = await _CadesCOM2.default.oSignedData();
         oSigner = await _CadesCOM2.default.oSigner();
       } catch (err) {
-        throw new Error(`Ошибка инициализации подписи: ${String(err)}`);
+        console.error(err);
+        throw new Error(`Ошибка инициализации подписи`);
       }
 
       const cert = await this.getCertInfo(thumbprint);
@@ -218,7 +219,8 @@ class CryptoProAPI {
       try {
         msgBase64 = await (0, _toBase.toBase64)(msg);
       } catch (err) {
-        throw new Error(`Ошибка при преобразовании сообщения в Base64: ${String(err)}`);
+        console.error(err);
+        throw new Error(`Ошибка при преобразовании сообщения в Base64`);
       }
 
       const header = ';base64,';
@@ -245,7 +247,8 @@ class CryptoProAPI {
           contentType
         };
       } catch (err) {
-        throw new Error(`Ошибка при подписании данных: ${String(err)}`);
+        console.error(err);
+        throw new Error(`Ошибка при подписании данных`);
       }
     } catch (err) {
       throw new Error(err.message);
