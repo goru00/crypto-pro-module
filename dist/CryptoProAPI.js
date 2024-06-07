@@ -53,10 +53,10 @@ class CryptoProAPI {
   }
 
   /**
-     * Возвращает версию браузерного плагина для взаимодействия с КриптоПро CSP
-     * @async
-     * @returns {Object}
-     */
+    * Возвращает версию браузерного плагина для взаимодействия с КриптоПро CSP
+    * @async
+    * @returns {Object}
+  */
   async getPluginVersion() {
     try {
       const about = await this.about();
@@ -68,9 +68,9 @@ class CryptoProAPI {
   }
 
   /**
-     * Возвращает информацию по наименованию криптопровайдера
-     * @returns {Object}
-     */
+  * Возвращает информацию по наименованию криптопровайдера
+  * @returns {Object}
+  */
   async getCSPName() {
     try {
       const about = await this.about();
@@ -81,10 +81,10 @@ class CryptoProAPI {
   }
 
   /**
-     * Возвращает составную информацию, содержающую: версия плагина, версия криптопровайдера, наименование криптопровайдера
-     * @async
-     * @returns {Object}
-     */
+    * Возвращает составную информацию, содержающую: версия плагина, версия криптопровайдера, наименование криптопровайдера
+    * @async
+    * @returns {Object}
+  */
   async description() {
     try {
       const CSPVersion = await this.getCSPVersion();
@@ -101,10 +101,10 @@ class CryptoProAPI {
   }
 
   /**
-     * Возвращает список сертификатов, найденных на ЖМД и на других носителях
-     * @async
-     * @returns {Object}
-     */
+    * Возвращает список сертификатов, найденных на ЖМД и на других носителях
+    * @async
+    * @returns {Object}
+  */
   async getCertsList() {
     try {
       const _oStore = await _CadesCOM2.default.oStore();
@@ -154,11 +154,11 @@ class CryptoProAPI {
   }
 
   /**
-     * Получить детальную информацию по подписи
-     * @async
-     * @param {string} thumbprint отпечаток подписи 
-     * @returns 
-     */
+    * Получить детальную информацию по подписи
+    * @async
+    * @param {string} thumbprint отпечаток подписи 
+    * @returns 
+  */
   async getCertInfo(thumbprint) {
     try {
       if (!thumbprint) {

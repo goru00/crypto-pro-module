@@ -20,26 +20,12 @@
     "name": "НПЦ ИРС",
     "email": "administrator@npcirs.ru"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://npcirs-tech.ru/goru00/crypto-pro-module.git"
-  },
   "engines": {
     "node": ">=12"
   },
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-eslint": "^10.0.3",
-    "babel-plugin-syntax-class-properties": "^6.13.0",
-    "babel-plugin-transform-class-properties": "^6.18.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-standard": "^5.0.0",
-    "npm-run-all": "^4.1.5"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
   }
 }
