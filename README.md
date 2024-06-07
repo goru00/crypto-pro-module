@@ -29,7 +29,7 @@
 3 Выполнить установку модулей
 
 ```bash
-npm install @npcirs/self-parsing-form
+npm install @npcirs/crypto-pro-module
 ```
 
 4 Настроить систему для работы с криптопровайдером КриптоПро CSP. Инструкцию можно скачать [отсюда](https://gogs.npcirs.ru/goru00/crypto-pro-module/src/master/docs/Инструкция_по_установке_КриптоПро_CSP_5_0_в_AstraLinux.docx).
