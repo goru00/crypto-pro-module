@@ -32,7 +32,7 @@
 npm install @npcirs/crypto-pro-module
 ```
 
-4 Настроить систему для работы с криптопровайдером КриптоПро CSP. Инструкцию можно скачать [отсюда](https://gogs.npcirs.ru/goru00/crypto-pro-module/src/master/docs/Инструкция_по_установке_КриптоПро_CSP_5_0_в_AstraLinux.docx).
+4 Настроить систему для работы с криптопровайдером КриптоПро CSP. Инструкцию можно скачать [отсюда](https://gogs.npcirs.ru/goru00/crypto-pro-module/src/develop/docs/%d0%98%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%ba%d1%86%d0%b8%d1%8f_%d0%bf%d0%be_%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b5_%d0%9a%d1%80%d0%b8%d0%bf%d1%82%d0%be%d0%9f%d1%80%d0%be_CSP_5_0_%d0%b2_AstraLinux.docx).
 
 ## Использование (Usage)
 
